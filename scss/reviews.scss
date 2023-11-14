@@ -1,0 +1,47 @@
+.reviews {
+    display: flex;
+    flex-direction: column;
+    height: 700px;
+    background: white;
+    gap: 10%;
+    text-align: center;
+    justify-content: center;
+    padding-left: 20%;
+    padding-right: 20%;
+  }
+  
+  .reviews .people {
+    display: flex;
+    flex-direction: row;
+    gap: 10%;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .people div {
+    width: 500px;
+    height: 300px;
+  }
+  
+  .reviews .people div{
+    width: 400px;
+  
+    text-wrap: wrap;
+  }
+  
+  .reviews div img {
+    width: 200px;
+    border-radius: 250px;
+    box-shadow: 0 5px 5px 1px rgb(175, 175, 175);
+  }
+  
+  .people div h5 {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 1.5em;
+  }
+  
+  .people div p {
+    font-size: 1.2em;
+  }
+  
